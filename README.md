@@ -79,8 +79,7 @@ detect_event_type('BLACKPINK World Tour')      # → 'concert'
 
 ## Standard script template
 
-Every project I deliver follows this pattern — consistent error handling, logging, and alerting out of the box.
-
+The pattern my scripts follow: error handling, logging and alerting are built in.
 ```python
 from scraping_toolkit import TelegramAlerter, QualityFuse, SupabaseLogger
 
