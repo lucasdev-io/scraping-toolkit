@@ -1,18 +1,14 @@
 # scraping-toolkit
 
-A production-grade Python toolkit I use across all my web scraping projects.
-Built from real crawler work — not a demo.
+A Python toolkit I use across my scraping projects. It was extracted from a live crawler system.
 
-**Stats from active production system:**
-- 8 live scrapers running in production
-- 44,871+ n8n workflow executions
-- 0.6% failure rate
-
----
+Stats from the production system:
+- Scrapers for 9 live platforms, running daily on 2 machines (a 10th is paused after the site blocked it)
+- Telegram alert when a site blocks a scraper or data quality drops
 
 ## Why this exists
 
-Every scraping project needs the same plumbing: error alerts, circuit breakers, DB logging, anti-detect browser handling. I extracted these from my IdolPulse project (scraping 8 platforms) and packaged them so every new project starts solid instead of from scratch.
+Every scraping project needs the same plumbing: error alerts, circuit breakers, DB logging and anti-detect browser handling. I extracted these from my IdolPulse project, which scrapes 9 platforms, so each new project starts with them in place.
 
 ---
 
